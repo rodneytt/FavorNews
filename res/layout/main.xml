@@ -8,4 +8,9 @@
 	<Button android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:id="@+id/button"
 		android:text="这里是Button"></Button>
+		
+		<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/edit_view"
+		android:text="点击编辑"></Button>
+	
 </LinearLayout>
