@@ -8,9 +8,18 @@
 	<Button android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:id="@+id/button"
 		android:text="这里是Button"></Button>
-		
-		<Button android:layout_width="wrap_content"
+
+	<Button android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:id="@+id/edit_view"
 		android:text="点击编辑"></Button>
-	
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/tab_view_button"
+		android:text="查看Tab"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/menu_button1"
+		android:text="Button1"></Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/menu_button2"
+		android:text="Button2"></Button>
+
 </LinearLayout>
