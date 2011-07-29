@@ -21,5 +21,7 @@
 	<Button android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:id="@+id/menu_button2"
 		android:text="Button2"></Button>
+	<Button android:text="MainButton1" android:id="@+id/main_button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:text="MainButton2" android:id="@+id/main_button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
 
 </LinearLayout>
