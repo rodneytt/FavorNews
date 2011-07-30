@@ -17,5 +17,7 @@
 		<activity android:name=".TabActivity"></activity>
 		<activity android:name=".Activity1"></activity>
 		<activity android:name=".Activity2"></activity>
+		<activity android:name=".ActivityList1"></activity>
+		<activity android:name=".ActivityList2"></activity>
     </application>
 </manifest>

@@ -2,26 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
-	<TextView android:layout_width="fill_parent"
-		android:layout_height="wrap_content" android:text="@string/hello" />
-
-	<Button android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:id="@+id/button"
-		android:text="这里是Button"></Button>
-
-	<Button android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:id="@+id/edit_view"
-		android:text="点击编辑"></Button>
-	<Button android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:id="@+id/tab_view_button"
-		android:text="查看Tab"></Button>
-	<Button android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:id="@+id/menu_button1"
-		android:text="Button1"></Button>
-	<Button android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:id="@+id/menu_button2"
-		android:text="Button2"></Button>
-	<Button android:text="MainButton1" android:id="@+id/main_button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-	<Button android:text="MainButton2" android:id="@+id/main_button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-
+	<Button android:text="软件列表" android:id="@+id/button1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:text="姓名列表" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	
 </LinearLayout>
