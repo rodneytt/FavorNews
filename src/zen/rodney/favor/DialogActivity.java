@@ -41,7 +41,12 @@ public class DialogActivity extends Activity {
 		}
 		return null;
 	}
-
+	@Override
+	protected void onPrepareDialog(int id, Dialog dialog) {
+		if(id==1){
+			setTitle("≤‚ ‘∞°");
+		}
+	}
 	private Dialog buildDialg1(Context context) {
 		AlertDialog.Builder b = new AlertDialog.Builder(context);
 		b.setTitle("∂‘ª∞øÚ");
