@@ -19,5 +19,6 @@
 		<activity android:name=".Activity2"></activity>
 		<activity android:name=".ActivityList1"></activity>
 		<activity android:name=".ActivityList2"></activity>
+		<activity android:name=".DialogActivity"></activity>
     </application>
 </manifest>
