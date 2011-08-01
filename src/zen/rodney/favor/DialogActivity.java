@@ -8,6 +8,7 @@ package zen.rodney.favor;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -37,6 +38,14 @@ public class DialogActivity extends Activity {
 			}
 
 		});
+		((Button) findViewById(R.id.dialog_button4)).setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				showDialog(4);
+			}
+
+		});
 	}
 
 	@Override
@@ -46,6 +55,8 @@ public class DialogActivity extends Activity {
 			return buildDialog1(this);
 		case 3:
 			return buildDialog3(this);
+		case 4:
+			return buildDialog4(this);
 		default:
 			break;
 		}
@@ -97,5 +108,12 @@ public class DialogActivity extends Activity {
 			}
 		});
 		return builder.create();
+	}
+
+	private Dialog buildDialog4(Context context) {
+		ProgressDialog d = new ProgressDialog(context);
+		d.setTitle("’˝‘⁄œ¬‘ÿ");
+		d.setMessage("«Î…‘∫Ú!");
+		return d;
 	}
 }
