@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<Button android:text="晴空万里" android:id="@+id/n_sun"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:text="阴云密布" android:id="@+id/n_cloud"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	<Button android:text="大雨连绵" android:id="@+id/n_rain"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

@@ -23,7 +23,7 @@ public class FavorNewsActivity extends Activity {
 		public void onClick(View paramView) {
 			System.out.println(paramView.getId());
 			Intent it = new Intent();
-			it.setClass(FavorNewsActivity.this, DialogActivity.class);
+			it.setClass(FavorNewsActivity.this, NoticeActivity.class);
 			startActivity(it);
 		}
 	};
