@@ -35,14 +35,18 @@ public final class R {
         public static final int notice_2=0x7f050010;
         public static final int password_edit=0x7f050008;
         public static final int password_view=0x7f050007;
-        public static final int toast_1=0x7f050017;
-        public static final int toast_2=0x7f050018;
-        public static final int toast_content=0x7f050019;
+        public static final int spassword=0x7f050017;
+        public static final int susername=0x7f050015;
+        public static final int textView1=0x7f050014;
+        public static final int textView2=0x7f050016;
+        public static final int toast_1=0x7f05001b;
+        public static final int toast_2=0x7f05001c;
+        public static final int toast_content=0x7f05001d;
         public static final int username_edit=0x7f050006;
         public static final int username_view=0x7f050005;
-        public static final int view1=0x7f050014;
-        public static final int view2=0x7f050015;
-        public static final int view3=0x7f050016;
+        public static final int view1=0x7f050018;
+        public static final int view2=0x7f050019;
+        public static final int view3=0x7f05001a;
     }
     public static final class layout {
         public static final int activity1=0x7f030000;
@@ -54,9 +58,10 @@ public final class R {
         public static final int main=0x7f030006;
         public static final int notice=0x7f030007;
         public static final int notification=0x7f030008;
-        public static final int tab=0x7f030009;
-        public static final int toast=0x7f03000a;
-        public static final int toastcontent=0x7f03000b;
+        public static final int shared=0x7f030009;
+        public static final int tab=0x7f03000a;
+        public static final int toast=0x7f03000b;
+        public static final int toastcontent=0x7f03000c;
     }
     public static final class string {
         public static final int app_name=0x7f040001;

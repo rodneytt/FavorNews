@@ -23,5 +23,6 @@
 		<activity android:name=".NoticeActivity"></activity>
 		<activity android:name=".NotificationActivity"></activity>
 		<activity android:name=".ToastActivity"></activity>
+		<activity android:name=".SharedActivity"></activity>
     </application>
 </manifest>
