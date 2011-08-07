@@ -25,5 +25,7 @@
 		<activity android:name=".ToastActivity"></activity>
 		<activity android:name=".SharedActivity"></activity>
 		<activity android:name=".DBSQLActivity"></activity>
+		<activity android:name=".DiaryActivity"></activity>
+		<activity android:name=".DiaryEditActivity"></activity>
     </application>
 </manifest>

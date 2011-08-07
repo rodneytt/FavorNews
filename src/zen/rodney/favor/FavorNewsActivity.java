@@ -22,7 +22,7 @@ public class FavorNewsActivity extends Activity {
 		public void onClick(View paramView) {
 			System.out.println(paramView.getId());
 			Intent it = new Intent();
-			it.setClass(FavorNewsActivity.this, DBSQLActivity.class);
+			it.setClass(FavorNewsActivity.this, DiaryActivity.class);
 			startActivity(it);
 		}
 	};
