@@ -2,6 +2,7 @@ package zen.rodney.favor;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -13,6 +14,8 @@ public class FavorNewsActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+		Intent it = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:13811967656"));
+		startActivity(it);
 		((Button) findViewById(R.id.button1)).setOnClickListener(button1_listen);
 	}
 
