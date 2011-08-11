@@ -19,6 +19,7 @@ public final class R {
     public static final class id {
         public static final int activity_button1=0x7f050001;
         public static final int activity_button2=0x7f050000;
+        public static final int bind_service=0x7f050027;
         public static final int button1=0x7f050018;
         public static final int button2=0x7f050019;
         public static final int created=0x7f050013;
@@ -45,13 +46,16 @@ public final class R {
         public static final int password_view=0x7f05000b;
         public static final int row=0x7f050011;
         public static final int spassword=0x7f050021;
+        public static final int start_service=0x7f050025;
+        public static final int stop_service=0x7f050026;
         public static final int susername=0x7f05001f;
         public static final int text1=0x7f050012;
         public static final int textView1=0x7f050002;
         public static final int textView2=0x7f050020;
-        public static final int toast_1=0x7f050025;
-        public static final int toast_2=0x7f050026;
-        public static final int toast_content=0x7f050027;
+        public static final int toast_1=0x7f050029;
+        public static final int toast_2=0x7f05002a;
+        public static final int toast_content=0x7f05002b;
+        public static final int unbind_service=0x7f050028;
         public static final int username_edit=0x7f05000a;
         public static final int username_view=0x7f050009;
         public static final int view1=0x7f050022;
@@ -75,11 +79,13 @@ public final class R {
         public static final int notification=0x7f03000d;
         public static final int shared=0x7f03000e;
         public static final int tab=0x7f03000f;
-        public static final int toast=0x7f030010;
-        public static final int toastcontent=0x7f030011;
+        public static final int testservice=0x7f030010;
+        public static final int toast=0x7f030011;
+        public static final int toastcontent=0x7f030012;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
         public static final int hello=0x7f040000;
+        public static final int service_started=0x7f040002;
     }
 }
